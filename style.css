@@ -153,6 +153,7 @@ hr{
     text-align: center;
     margin: 15px auto;
     background-color: #fff;
+    max-width: 100%;
 }
 .items{
     display: grid;
@@ -176,9 +177,21 @@ footer{
     margin-top: 10px;
     color: #fff;
 }
-@media only screen and (max-width:858px){
+@media only screen and (max-width:800px){
     .check-button{
         display: block;
+    }
+    body{
+        width: 100%;
+    }
+    #usage{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    #pricing{
+        text-align: center;
     }
     ul{
         position: fixed;
